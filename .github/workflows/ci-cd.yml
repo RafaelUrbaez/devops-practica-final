@@ -48,7 +48,7 @@ jobs:
          
           tags: ${{ secrets.DOCKER_USERNAME }}/hola-mundo-devops:latest
 
-deploy:
+  deploy: # <--- Fíjate que tiene 2 espacios a la izquierda, alineado con docker-push
     name: Desplegar en Producción (Render)
     needs: docker-push
     runs-on: ubuntu-latest
