@@ -1,0 +1,12 @@
+# No copiar las dependencias locales 
+node_modules/
+
+# No copiar archivos de Git ni Docker
+.git/
+.gitignore
+Dockerfile
+.dockerignore
+
+# Archivos de entorno y logs
+.env
+npm-debug.log
